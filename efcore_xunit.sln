@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "efcore_xunit", "efcore_xunit\efcore_xunit.csproj", "{F9C972E7-9C73-47E6-A554-E17911E961B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkUtility.Tests", "NetworkUtility.Tests\NetworkUtility.Tests.csproj", "{CF98601C-4EB2-474C-ADB8-D1856C015844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkUtility", "NetworkUtility\NetworkUtility.csproj", "{953A48B3-8AD7-40CC-9BDA-7E6DB596F680}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F9C972E7-9C73-47E6-A554-E17911E961B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F9C972E7-9C73-47E6-A554-E17911E961B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F9C972E7-9C73-47E6-A554-E17911E961B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F9C972E7-9C73-47E6-A554-E17911E961B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF98601C-4EB2-474C-ADB8-D1856C015844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF98601C-4EB2-474C-ADB8-D1856C015844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF98601C-4EB2-474C-ADB8-D1856C015844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF98601C-4EB2-474C-ADB8-D1856C015844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953A48B3-8AD7-40CC-9BDA-7E6DB596F680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953A48B3-8AD7-40CC-9BDA-7E6DB596F680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953A48B3-8AD7-40CC-9BDA-7E6DB596F680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953A48B3-8AD7-40CC-9BDA-7E6DB596F680}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

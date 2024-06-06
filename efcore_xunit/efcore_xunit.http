@@ -1,6 +1,0 @@
-@efcore_xunit_HostAddress = http://localhost:5187
-
-GET {{efcore_xunit_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
